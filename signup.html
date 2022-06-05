@@ -3,30 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style2.css">
 	<title>signup</title>
 </head>
 <body>
 	<div class="container">
+		<div class="input">
+			<h2>signup</h2>
 		<form>
-		<label> Name</label>
-		<input type="text" name="name" id="name" placeholder="Your name"><br>
-		<label>Age</label>
-		<input type="text" name="age" id="age" placeholder="Your age"><br>
+		<label> Name</label><br>
+		<input type="text" name="name" id="name" placeholder="Your name" required><br>
+		<label>Age</label><br>
+		<input type="number" name="age" id="name" placeholder="Your age" required><br>
 		<label>Gender</label><br>
-		<input type="radio" name="gender" value="male"><label>male</label><br>
+		<input type="radio" name="gender"  value="male"><label>male</label><br>
 			<input type="radio" name="gender" value="female"><label>female</label><br>
 				<input type="radio" name="gender" value="others"><label>others</label><br>
-		<label>Email</label>
-		<input type="email" name="email" id="email" placeholder=" your email">
+		<label>Email</label><br>
+		<input type="email" name="email" id="name" placeholder=" your email" required><br>
 		<label>Password</label><br>
-		<input type="password" name="password" id="password" placeholder="create password"><br>
-		<label>Re-enter password</label>
-			<input type="password" name="password" id="password" placeholder="create password"><br>
-		<input type="submit" value="create account"><br>
-</div>
+		<input type="password" name="password" id="name" placeholder="create password" required><br>
+		<label>Re-enter password</label><br>
+			<input type="password" name="password" id="name" placeholder="confirm password" required><br>
+		<div class="btn"></div><input type="submit" id="submit" value="create account"><br></div></div>
+</div><hr>
 <div class="container2">
-	<input type="checkbox" name="policy" required>i agreed <a href="#">terms and conditions</a><br>
-	<strong>already have an account <a href="sign.html">signin</a></strong>
+	<h4><input type="checkbox" name="policy" required>i agreed <a href="#">terms and conditions</a><br>
+	<span><div class="btn2"><strong>already have an account <a href="sign.html">signin</a></strong></div></span></h4>
 </div>
 </form>
 </body>
